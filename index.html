@@ -10,6 +10,8 @@
 <script src="ex07-4.js"></script>
 <script src="ex07-5.js"></script>
 <script src="ex07-6.js"></script>
+<script src="ex07-7.js"></script>
+
 
 
 
@@ -22,7 +24,7 @@
  <ul>
 <h1>後期課題</h1>
 <br>
-<h1>自己紹介</h1>
+<h1>〖自己紹介〗</h1>
 <ul>
 <li>名前：宮崎　遥希</li>
 <li>部活動：女子ソフトボール部</li>
@@ -42,12 +44,9 @@
 <li><input type="button" value="好きなこと" onclick="hyoji()"></li>
 <input type="text" name="moji" size="40" value="">
 </ul>
-
 <br>
-<h1>犬と遊ぼう</h1>
 <br>
-
-
+<h1>〖犬と遊ぼう〗</h1>
 <h2>★犬に名前を付けよう★</h2>
 <ul>
 <input type="button" value="ポチ"onclick="someone('ポチ');">
@@ -62,16 +61,34 @@
 <img src='./image/dog-normal.png' id="logo" alt="JosaiLogo"></div>
 </ul>
 
+<br>
 <h2>★挨拶をしよう★</h2>
 <ul>
-<p>自分の名前を入れてね！</p>
+<h3>自分の名前を入れて欲しいワン！</h3>
  <p></p><input type="text" id="who74"></p>
  <input type="button" value="挨拶" onclick="sayhello74();">
 <br>
 </ul>
 
+<br>
+<h2>★クイズで遊ぼう★</h2>
+<ul>
+<h3>僕に関するクイズで一緒に遊ぶワン！</h3>
+<p>◎僕の犬種を当ててみてワン！</p>
+<input type="button" value="秋田犬" onclick="txtchange9();">
+<input type="button" value="柴犬" onclick="txtchange10();">
+<input type="button" value="チワワ" onclick="txtchange11();">
+<div id="txt3" >
+</div>
+<p>◎僕は何歳か当ててみてワン！数字(半角)で答えてね！</p>
+<input type="text" id="answer3"> 歳
+<input type="button" value="解答" onclick="nazo3();">
+</ul>
+
+<br>
 <h2>★なぞなぞで遊ぼう★</h2>
 <ul>
+<h3>僕が出すなぞなぞで一緒に遊ぶワン！</h3>
 <h3>＜第１問＞</h3>
 <p>４冊の本の中に「推理小説」があるワン！どれだかわかる？</p>
 <input type="button" value="「あなたへ犯人からのメッセージ」" onclick="txtchange1();">
@@ -96,15 +113,19 @@
 </div>
 </ul>
 
-<h2>★クイズで遊ぼう★</h2>
+<br>
+<h2>★体内ストップウォッチで遊ぼう★</h2>
 <ul>
-<h3>僕に関するクイズで一緒に遊ぶワン！</h3>
-<p>①僕の犬種を当ててみてワン！</p>
-<div id="txt3" >
-</div>
-<input type="button" value="秋田犬" onclick="txtchange9();">
-<input type="button" value="柴犬" onclick="txtchange10();">
-<input type="button" value="チワワ" onclick="txtchange11();">
+<h3>スタートボタンを押して５秒経ったら手を挙げてね！ピッタリ５秒を目指してワン！</h3>
+<input type="button" value="スタート"
+onclick="setTimeout('mes()',5000)">
+</ul>
+
+<br>
+<br>
+<h1>〖最後に…〗</h1>
+<ul>
+<h4>１年間ありがとうございました！これからもプログラミング頑張ります！</h4>
 </ul>
 
 </ul>

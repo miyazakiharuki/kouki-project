@@ -3,5 +3,4 @@ function hyoji()
 {document.timer.moji.value = str.substr(0,cnt+1);}else{ document.timer.moji.value = ""; } setTimeout("hyoji()",1000);
 }
 
-function mes()
-{alert("3秒経ちました！");}
+
